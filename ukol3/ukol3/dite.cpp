@@ -1,8 +1,9 @@
 #include "dite.h"
 #include <iostream>
+#include <string>
 
-Dite::Dite(const std::string& name, int age, int weight)
-    : Rodic(name, age, weight)
+Dite::Dite(const std::string& name, int age, int weight, const std::string& vlasy)
+    : Rodic(name, age, weight), mVlasy(vlasy)
 {
     std::cout << "Dite constructor called for " << mName << '\n';
 }
@@ -15,6 +16,11 @@ int Dite::getAge() const
 int Dite::getWeight() const
 {
     return mWeight;
+}
+
+const std::string& Dite::getVlasy() const
+{
+    return mVlasy;
 }
 
 void Dite::speak() const

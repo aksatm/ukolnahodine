@@ -14,10 +14,12 @@ int main()
 
     printf("\n");
 
-    Rodic* p = new Dite("Martin", 10, 30);
+    Dite* d = new Dite("Martin", 10, 30, "hneda");
+    Rodic* p = d;
     std::cout << "Jmeno: " << p->getName() << '\n';
     std::cout << "Vek: " << p->getAge() << " let\n";
     std::cout << "Vaha: " << p->getWeight() << " kg\n";
+    std::cout << "Barva vlasu je: " << d->getVlasy() << '\n';
     p->speak();
 
     delete p;

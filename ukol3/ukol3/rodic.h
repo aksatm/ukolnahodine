@@ -8,8 +8,7 @@ public:
     Rodic(const std::string& name,
         int age,
         int weight);
-    // Virtualni destruktor pro spravne uvolneni pameti pri dedeni
-    // destruktor ma stejny nazev jako trida, ale s tridou (~) pred ni
+    // Virtualni destruktor
     virtual ~Rodic();
 
     //dalsi metody
@@ -17,7 +16,7 @@ public:
     int getAge() const;
     int getWeight() const;
 
-    // Virtualni metoda, aby odvozene tridy mohly popsat chovani
+    // Virtualni metoda
     virtual void speak() const;
 
 protected:
