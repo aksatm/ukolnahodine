@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dite.cpp" />
     <ClCompile Include="rodic.cpp" />
     <ClCompile Include="ukol3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="dite.h" />
     <ClInclude Include="rodic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

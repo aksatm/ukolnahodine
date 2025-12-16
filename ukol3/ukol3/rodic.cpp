@@ -26,5 +26,5 @@ int Rodic::getWeight() const
 
 void Rodic::speak() const
 {
-    std::cout << getName() << " rika ahooooooj.\n";
+    std::cout << getName() << " rika ahoj.\n";
 }

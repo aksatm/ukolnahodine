@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include "Rodic.h"
+#include "dite.h"
 
 int main()
 {
@@ -10,6 +11,16 @@ int main()
     std::cout << "Vaha: " << r.getWeight() << " kg\n";
 
     r.speak();
+
+    printf("\n");
+
+    Rodic* p = new Dite("Martin", 10, 30);
+    std::cout << "Jmeno: " << p->getName() << '\n';
+    std::cout << "Vek: " << p->getAge() << " let\n";
+    std::cout << "Vaha: " << p->getWeight() << " kg\n";
+    p->speak();
+
+    delete p;
 
     return 0;
 }
