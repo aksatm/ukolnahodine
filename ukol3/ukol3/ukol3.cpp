@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include "Rodic.h"
 #include "dite.h"
+#include "Bratr.h"
 
 int main()
 {
@@ -20,6 +21,16 @@ int main()
     std::cout << "Vek: " << p->getAge() << " let\n";
     std::cout << "Vaha: " << p->getWeight() << " kg\n";
     std::cout << "Barva vlasu je: " << d->getVlasy() << '\n';
+    p->speak();
+
+    delete p;
+
+    Bratr* c = new Bratr("Jan", 22, 70, "modry");
+    Rodic* p = d;
+    std::cout << "Jmeno: " << p->getName() << '\n';
+    std::cout << "Vek: " << p->getAge() << " let\n";
+    std::cout << "Vaha: " << p->getWeight() << " kg\n";
+    std::cout << "Barva oci je: " << c->getOci() << '\n';
     p->speak();
 
     delete p;

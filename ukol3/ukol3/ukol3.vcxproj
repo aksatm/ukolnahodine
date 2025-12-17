@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bratr.cpp" />
     <ClCompile Include="dite.cpp" />
     <ClCompile Include="rodic.cpp" />
     <ClCompile Include="ukol3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bratr.h" />
     <ClInclude Include="dite.h" />
     <ClInclude Include="rodic.h" />
   </ItemGroup>
