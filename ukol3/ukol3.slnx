@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ukol3/ukol3.vcxproj" />
+  <Project Path="ukol3/ukol3.vcxproj" Id="0244e770-f6d3-47bc-b184-d24cb0d245a4" />
 </Solution>

@@ -25,6 +25,6 @@ const std::string& Dite::getVlasy() const
 
 void Dite::speak() const
 {
-    std::cout << mName << " rika ahoooooooj.\n";
+    std::cout << mName << " rika ugu,gaga.\n";
 }
 
